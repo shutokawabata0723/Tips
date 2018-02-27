@@ -217,7 +217,7 @@ for a in LINE:
 import csv
 
 a = open('read.csv','r') # 読み込み専用
-b = open('write,csv', 'w') # 書き込み専用
+b = open('write.csv', 'w') # 書き込み専用
 
 for line in a: # read.csvを，上から一行づづ読み込む
 
