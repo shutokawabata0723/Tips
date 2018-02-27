@@ -93,3 +93,23 @@ a.close() #　閉じる
 b.close()
 ```
 
+# len()
+#### 配列の要素数を返す
+```python
+LINE = [1, 2, 3, 4, 5]
+N = len(LINE)
+
+# 結果
+N = 5
+```
+
+
+# 配列の検索
+####  配列を検索し，該当した要素番号をかえす
+```python
+text = ['5', '28', '11', '12', '28', '28']
+indexes = [i for i, x in enumerate(text) if x == '28']
+
+# 結果
+indexes = [1, 4, 5]
+```
