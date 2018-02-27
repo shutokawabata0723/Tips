@@ -372,6 +372,21 @@ print dict
 #結果
 {"itou":64, "yamada":75, "endou":92, "honda":52}
 ```
+# set(集合)
+配列とは違い，順序は考慮しない
+```python
+Set = set()
+name = 'honda'
+type = 'game'
+
+Set.add(name)
+Set.add(type)
+
+print Set
+
+#結果
+(['game','honda'])
+```
 
 # スクレイピング
 ```python
