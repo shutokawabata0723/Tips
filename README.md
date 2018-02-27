@@ -349,6 +349,7 @@ r = requests.get(URL)
 content = r.text
 ```
 # コマンドライン引数の取得
+ファイル名:test_argv.py
 ```python
 import sys
  
@@ -358,6 +359,9 @@ print(args)
 print('第１引数：' + args[1])
 print('第２引数：' + args[2])
 print('第３引数：' + args[3])
+
+#実行
+test_argv.py python izm com
 
 #結果
 ['test_argv.py', 'python', 'izm', 'com']
