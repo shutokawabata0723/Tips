@@ -77,3 +77,18 @@ LINE: python
 for i in range(1,66):
 ```
 
+# ファイルの読み込み・書き込み
+```python
+import csv
+
+a = open('read.csv','r') # 読み込み専用
+b = open('write,csv', 'w') # 書き込み専用
+
+for line in a: # read.csvを，上から一行づづ読み込む
+
+b.write("hello¥n") # write.csvに hello を書き込む．
+
+a.close() #　閉じる
+b.close()
+```
+
