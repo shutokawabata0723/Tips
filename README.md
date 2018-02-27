@@ -26,8 +26,24 @@
  
  # 結果
  LINE: ['hello", 'world']
+ ```
  
+ # 配列を，指定した要素でソート
+ ```python
+ from operator import itemgetter #sort by any factor
  
+ LINE = [[PlayStation4, 40000, game],
+         [Switch, 30000, game],
+         [Xbox, 50000, game]]
+         
+ # 2番目の要素でソート
+ LINE.sort(key=itemgetter(1))
+ 
+ # 結果
+ LINE = [[Xbox, 50000, game],
+         [Playstation4, 40000, game],
+         [Switch, 30000, game]]
+ ```
  
  
  # split(',',n)
