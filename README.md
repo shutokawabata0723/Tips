@@ -10,9 +10,8 @@
  ```python
  LINE = "Hello¥n"
  LINE = LINE.rstrip()
- ```
- 結果
- ```python
+ 
+ # 結果
  LINE: "hello"
  ```
  
@@ -23,9 +22,8 @@
  ```python
  LINE = "a , b , c , d , e"
  Array = LINE.split(',')
- ```
- 結果
- ```python
+
+ #結果
  Array[0]= 'a'
  Array[1]= 'b'
  Array[2]= 'c'
@@ -39,9 +37,8 @@
 ```python
 LINE = "bython"
 LINE = LINE.replace('b','p')
-```
-結果
-```python
+
+#結果
 LINE: python
 ```
 
