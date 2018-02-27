@@ -107,7 +107,6 @@ N = 5
 # 配列の検索
 ####  配列を検索し，該当したインデックスをかえす
 ```python
-import math
 text = ['5', '28', '11', '12', '28', '28']
 indexes = [i for i, x in enumerate(text) if x == '28']
 
