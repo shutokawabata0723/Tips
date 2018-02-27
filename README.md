@@ -73,6 +73,7 @@ LINE: python
 
 # for文
 #### 変数iが1 ~ 65 まで繰り返す
+#### （つまり６５回繰り返す）
 ```python
 for i in range(1,66):
 ```
