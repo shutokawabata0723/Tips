@@ -180,3 +180,13 @@ print dict["endou"]
 75
 82
 ```
+#### Keyを取得
+```python
+KEY = dict.keys()
+print KEY
+
+#結果
+['itou', 'yamada', 'endou']
+```
+
+
