@@ -34,4 +34,14 @@
  ```
 
 
+## replace('m','n')
+#### mをnに変える
+```python
+LINE = "bython"
+LINE = LINE.replace('b','p')
+```
+結果
+```python
+LINE: python
+```
 
