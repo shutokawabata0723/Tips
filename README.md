@@ -158,6 +158,9 @@ print list
 list = [[10,4],[3,6],[4,6],[5,0],[4,9],[2,0]]
 list.sort(key=lambda x:(x[0],x[1]))
 print list
+
+#結果
+[[2,0],[3,6],[4,6],[4,9],[5,0],[10,4]]
 ```
 #### 上と同じ
 ```python
@@ -165,6 +168,9 @@ from operator import itemgetter
 list = [[10,4],[3,6],[4,6],[5,0],[4,9],[2,0]]
 list.sort(key=itemgetter(1,0))
 print list
+
+#結果
+[[2,0],[3,6],[4,6],[4,9],[5,0],[10,4]]
 ```
  
  
