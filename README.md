@@ -125,7 +125,21 @@ print (wordList)  #出力結果：["X","F","A"]
 numberList.sort(reverse=True)
 print (numberList)  #出力結果：[6,4,2]
 ```
+#### 多次元リストのソート
+```python
+list = [[10,4],[3,6],[4,6],[5,0],[4,9],[2,0]]
+#このリストをまず1番目の要素で昇順にして、次に2番目の要素で昇順にしたい
 
+list.sort(key=lambda x:x[0])
+print list
+list.sort(key=lambda x:x[1])
+print list
+
+
+#結果
+[[2,0], [3,6], [4,6], [4,9], [5,0], [10,4]]
+[[2,0], [5,0], [10,4], [3,6], [4,6], [4,9]]
+```
  
  
  # split(',',n)
