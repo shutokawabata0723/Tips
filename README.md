@@ -137,6 +137,17 @@ N = int(n)
 # 結果
 N = 5
 ```
+
+# abs()
+#### 絶対値をかえす
+```python
+n = -5.55
+print abs(n)
+
+#結果
+5.55
+```
+
 # print
 ```python
 str1 = 'hello'
