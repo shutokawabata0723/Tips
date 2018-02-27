@@ -51,9 +51,20 @@ from operator import itemgetter #sort by factor
  LINE: ['hello', 'world']
  ```
  # ソート
+ #### 一番簡単
  ```python
  data = [5, 2, 3, 1, 4]
- data.sorted
+ data.sort()
+ print data
+ 
+ #結果
+ [1, 2, 3, 4, 5]
+ ```
+ 
+ #### 組み込み関数版
+ ```python
+ data = [5, 2, 3, 1, 4]
+ data = sorted(data)
  print data 
  
  #結果
