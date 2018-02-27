@@ -205,7 +205,7 @@ print "noguchi" in dict
 True
 False
 ```
-####要素の追加と更新
+#### 要素の追加と更新
 ```python
 dict.update({"honda":52, "endou":92})
 print dict
