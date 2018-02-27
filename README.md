@@ -389,7 +389,16 @@ print dict
 #結果
 {'shuto': set([90, 60, 70])}
 ```
+#### Set型に書き込み
+```python
+Set = set()
+Set = dict[name]
 
+print Set
+
+#結果
+set([90, 60, 70])
+```
 # set(集合)
 配列とは違い，順序は考慮しない
 ```python
@@ -400,6 +409,24 @@ group = 'game'
 Set.add(name)
 Set.add(group)
 
+print Set
+
+#結果
+(['game','honda'])
+```
+#### set --> list
+```python
+list(Set)
+print list
+
+#結果
+['game','honda']
+```
+
+#### list --> set
+```python
+list = ['honda','game']
+Set = set(list)
 print Set
 
 #結果
