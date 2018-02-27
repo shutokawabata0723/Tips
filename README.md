@@ -241,7 +241,7 @@ print dict
 # スクレイピング
 ```python
 import requests
-URL = https://github.com/shutokawabata0723/....
+URL = 'https://github.com/shutokawabata0723/....'
 r = requests.get(URL)
 content = r.text
 ```
