@@ -102,7 +102,42 @@ N = len(LINE)
 # 結果
 N = 5
 ```
+# int()
+#### 文字列を数値に直す
+```python
+n = '5'
+N = int(n)
 
+# 結果
+N = 5
+```
+#### float型をint型に直す
+```python
+n = 5.55
+N = int(n)
+
+# 結果
+N = 5
+```
+# print
+```python
+str1 = 'hello'
+str2 = 'world'
+print str(str1) + str(str2)
+```
+#### 色付きでprint
+```python
+PURPLE  = '\033[35m'
+RED     = '\033[31m'
+CYAN    = '\033[36m'
+OKBLUE  = '\033[94m'
+OKGREEN = '\033[92m'
+WARNING = '\033[93m'
+FAIL    = '\033[91m'
+ENDC    = '\033[0m'
+
+print OKGREEN + str(str1) + str(str2) + ENDC
+```
 
 # 配列の検索
 ####  配列を検索し，該当したインデックスをかえす
