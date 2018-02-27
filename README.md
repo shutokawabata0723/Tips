@@ -46,7 +46,7 @@ from operator import itemgetter #sort by factor
  LINE: ['hello", 'world']
  ```
  
- # 配列を，指定した要素でソート
+ # 配列を，指定したインデックスでソート
  ```python
  from operator import itemgetter #sort by any factor
  
@@ -54,7 +54,7 @@ from operator import itemgetter #sort by factor
          [Switch, 30000, game],
          [Xbox, 50000, game]]
          
- # 2番目の要素でソート
+ # 2番目のインデックスでソート
  LINE.sort(key=itemgetter(1))
  
  # 結果
