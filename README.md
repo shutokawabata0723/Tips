@@ -43,7 +43,7 @@ from operator import itemgetter #sort by factor
  LINE.append(fac2)
  
  # 結果
- LINE: ['hello", 'world']
+ LINE: ['hello', 'world']
  ```
  
  # 配列を，指定したインデックスでソート
