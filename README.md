@@ -141,6 +141,20 @@ print list
 [[2,0], [5,0], [10,4], [3,6], [4,6], [4,9]]
 ```
  
+ #### 1番目の要素を昇順にして、1番目の同じ値が同じものは2番目の値で昇順したい場合
+```python
+list = [[10,4],[3,6],[4,6],[5,0],[4,9],[2,0]]
+list.sort(key=lambda x:(x[0],x[1]))
+print list
+```
+#### 上と同じ
+```python
+from operator import itemgetter
+list = [[10,4],[3,6],[4,6],[5,0],[4,9],[2,0]]
+list.sort(key=itemgetter(1,0))
+print list
+```
+ 
  
  # split(',',n)
  #### , で区切る（最大n個まで）
