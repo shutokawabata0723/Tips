@@ -237,3 +237,12 @@ print dict
 #結果
 {"itou":64, "yamada":75, "endou":92, "honda":52}
 ```
+
+# スクレイピング
+```python
+import requests
+URL = https://github.com/shutokawabata0723/....
+r = requests.get(URL)
+content = r.text
+```
+
