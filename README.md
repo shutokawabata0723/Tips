@@ -15,6 +15,19 @@
  LINE: "hello"
  ```
  
+ # append()
+ #### 配列の一番後ろに要素を追加
+ ```python
+ fac1 = "hello"
+ fac2 = "world"
+ LINE = []
+ LINE.append(fac1)
+ LINE.append(fac2)
+ 
+ # 結果
+ LINE: ['hello", 'world']
+ 
+ 
  
  
  # split(',',n)
