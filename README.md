@@ -18,7 +18,7 @@
  
  
  # split(',',n)
- #### ','で区切る（最大n個まで）
+ #### , で区切る（最大n個まで）
  ```python
  LINE = "a , b , c , d , e"
  Array = LINE.split(',')
