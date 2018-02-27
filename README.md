@@ -14,11 +14,12 @@ import random
 ```
 #### 用途次第
 ```python
-from urlparse import urlparse #URL --> Domain
-from time import sleep # To sleep
-import requests # request HTML from URL
-from operator import itemgetter #sort by factor
-
+from urlparse import urlparse       #URL --> Domain
+from time import sleep              #To sleep
+import requests                     #request HTML from URL
+from operator import itemgetter     #sort by factor
+import matplotlib.pyplot as plt     #Graph 
+import numpy as np                  #Graph
 ```
 
 # 宣言
