@@ -169,3 +169,14 @@ indexes = [1, 4, 5]
 
 
 # ディクショナリ
+```python
+dict = {"itou":64, "yamada":75, "endou":82}
+print dict["itou"]
+print dict["yamada"]
+print dict["endou"]
+
+# 結果
+64
+75
+82
+```
