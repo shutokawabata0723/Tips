@@ -26,6 +26,7 @@ import numpy as np                  #Graph
 ```python
  Array = [] # 配列の宣言
  Dict  = {} # ディクショナリの宣言
+ Set   = set()
 ```
 
 
