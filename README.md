@@ -401,3 +401,14 @@ test_argv.py python izm com
 第２引数：izm
 第３引数：com
 ```
+# URL --> domain
+```python
+from urlparse import urlparse  
+
+url = 'https://github.com/shutokawabata0723/Tips/edit/master/README.md'
+Domain = '{uri.scheme}://{uri.netloc}/'.format(uri=urlparse(url))
+print Domain
+
+#結果
+https://github.com/
+```
