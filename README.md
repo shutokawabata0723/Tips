@@ -372,15 +372,33 @@ print dict
 #結果
 {"itou":64, "yamada":75, "endou":92, "honda":52}
 ```
+#### Valueに複数の値を持たせる場合
+```python
+dict = {}
+name = 'shuto'
+kokugo = 60
+sugaku = 70
+eigo   = 90
+
+dict.setdefault(name, set()).add(kokugo)
+dict.setdefault(name, set()).add(sugaku)
+dict.setdefault(name, set()).add(eigo)
+
+print dict
+
+#結果
+{'shuto': set([90, 60, 70])}
+```
+
 # set(集合)
 配列とは違い，順序は考慮しない
 ```python
 Set = set()
 name = 'honda'
-type = 'game'
+group = 'game'
 
 Set.add(name)
-Set.add(type)
+Set.add(group)
 
 print Set
 
