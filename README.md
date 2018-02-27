@@ -1,11 +1,11 @@
-## 宣言関係
+# 宣言関係
 ```python
  Array = [] # 配列の宣言
  Dict  = {} # ディクショナリの宣言
 ```
 
 
-## rstrip()
+# rstrip()
 #### 改行文字(¥n)を取り除く
  ```python
  LINE = "a , b , c , d , e¥n"
@@ -18,7 +18,7 @@
  
  
  
- ## split(',',n)
+ # split(',',n)
  #### ','で区切る（最大n個まで）
  ```python
  LINE = "a , b , c , d , e"
@@ -34,7 +34,7 @@
  ```
 
 
-## replace('m','n')
+# replace('m','n')
 #### mをnに変える
 ```python
 LINE = "bython"
@@ -43,5 +43,11 @@ LINE = LINE.replace('b','p')
 結果
 ```python
 LINE: python
+```
+
+# 繰り返し処理
+#### 変数iが1 ~ 65 まで繰り返す
+```python
+for i in range(1,66):
 ```
 
