@@ -8,12 +8,12 @@
 # rstrip()
 #### 改行文字(¥n)を取り除く
  ```python
- LINE = "a , b , c , d , e¥n"
+ LINE = "Hello¥n"
  LINE = LINE.rstrip()
  ```
  結果
  ```python
- LINE = "a , b , c , d , e"
+ LINE: "hello"
  ```
  
  
