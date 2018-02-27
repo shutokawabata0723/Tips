@@ -188,5 +188,28 @@ print KEY
 #結果
 ['itou', 'yamada', 'endou']
 ```
+#### Valueを取得
+```python
+VAL = dict.values()
+print VAL
 
+#結果
+[64, 75, 82]
+```
+#### Keyが存在するかどうか
+```python
+print "yamada" in dict
+print "noguchi" in dict
 
+#結果
+True
+False
+```
+####要素の追加と更新
+```python
+dict.update({"honda":52, "endou":92})
+print dict
+
+#結果
+{"itou":64, "yamada":75, "endou":92, "honda":52}
+```
