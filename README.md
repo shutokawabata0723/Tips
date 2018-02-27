@@ -1,4 +1,22 @@
-# 宣言関係
+# モジュール
+#### デフォルトで常に宣言しておきたい
+```python
+import csv
+import sys
+import codecs
+import math
+import random
+```
+#### 用途次第
+```python
+from urlparse import urlparse #URL --> Domain
+from time import sleep
+import requests
+from operator import itemgetter #sort by factor
+
+```
+
+# 宣言
 ```python
  Array = [] # 配列の宣言
  Dict  = {} # ディクショナリの宣言
