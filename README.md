@@ -50,8 +50,28 @@ from operator import itemgetter #sort by factor
  # 結果
  LINE: ['hello', 'world']
  ```
+ # ソート
+ ```python
+ data = [5, 2, 3, 1, 4]
+ data.sorted
+ print data 
  
- # 配列を，指定したインデックスでソート
+ #結果
+ [1, 2, 3, 4, 5]
+ ```
+ 
+ #### 文字列をsplitし，単語をアルファベット順にソート
+ ```python
+ data = 'This is a test string from Andrew'
+ list = sorted(data.split(), key=str.lower)
+ print list
+ 
+ #結果
+['a', 'Andrew', 'from', 'is', 'string', 'test', 'This']
+ ```
+ 
+ 
+ #### 配列を，指定したインデックスでソート
  ```python
  from operator import itemgetter #sort by any factor
  
