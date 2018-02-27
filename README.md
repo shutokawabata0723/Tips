@@ -10,8 +10,8 @@ import random
 #### 用途次第
 ```python
 from urlparse import urlparse #URL --> Domain
-from time import sleep
-import requests
+from time import sleep # To sleep
+import requests # request HTML from URL
 from operator import itemgetter #sort by factor
 
 ```
