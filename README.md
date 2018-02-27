@@ -88,6 +88,45 @@ from operator import itemgetter #sort by factor
          [Switch, 30000, game]]
  ```
  
+ #### 要素を逆に並び替える
+ ```python
+wordList = ["F","A","X"]  #文字列のリスト
+numberList = [4,6,2]  #数値のリスト
+
+wordList.reverse()
+print (wordList)  #出力結果：["X","A","F"]
+
+numberList.reverse()
+print (numberList)  #出力結果：[2,6,4]
+```
+
+
+#### 要素を降順に並び替える
+```python
+wordList = ["F","A","X"]  #文字列のリスト
+numberList = [4,6,2]  #数値のリスト
+
+wordList.sort()
+wordList.reverse()
+print (wordList)  #出力結果：["X","F","A"]
+
+numberList.sort()
+numberList.reverse()
+print (numberList)  #出力結果：[6,4,2]
+```
+#### 上と同じ
+```python
+wordList = ["F","A","X"]  #文字列のリスト
+numberList = [4,6,2]  #数値のリスト
+
+wordList.sort(reverse=True)
+print (wordList)  #出力結果：["X","F","A"]
+
+numberList.sort(reverse=True)
+print (numberList)  #出力結果：[6,4,2]
+```
+
+ 
  
  # split(',',n)
  #### , で区切る（最大n個まで）
