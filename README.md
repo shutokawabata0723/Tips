@@ -32,7 +32,7 @@ from operator import itemgetter     #sort by factor
 import matplotlib.pyplot as plt     #Graph 
 import numpy as np                  #Graph
 ```
-# モジュール・インストール方法
+# モジュールのインストール方法
 ```
 pip install [モジュール名]
 または
