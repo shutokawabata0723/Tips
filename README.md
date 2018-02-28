@@ -32,6 +32,16 @@ from operator import itemgetter     #sort by factor
 import matplotlib.pyplot as plt     #Graph 
 import numpy as np                  #Graph
 ```
+#### インストール方法
+```
+pip install [モジュール名]
+または
+sudo pip install [モジュール名]
+```
+sudo がどうしても使えないとき
+```
+pip install [モジュール名] --user
+````
 
 # 宣言
 ```python
