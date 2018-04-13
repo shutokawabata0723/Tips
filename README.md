@@ -50,6 +50,15 @@ pip install [モジュール名] --user
  Set   = set()
 ```
 
+# 文字化け
+```python
+ a = open('in.csv','r') #UTF-8の文字列
+ for i in a:
+   text = i
+   text = text.encode('utf-8')
+   print text
+```
+
 
 # rstrip()
 #### 改行文字(¥n)を取り除く
