@@ -410,7 +410,7 @@ print dict
 #結果
 {"itou":64, "yamada":75, "endou":92, "honda":52}
 ```
-#### Valueに複数の値を持たせる場合
+#### Valueに複数の値を持たせる場合(SET型)
 ```python
 dict = {}
 name = 'shuto'
@@ -423,10 +423,37 @@ dict.setdefault(name, set()).add(sugaku)
 dict.setdefault(name, set()).add(eigo)
 
 print dict
-
-#結果
+```
+# 結果
+```
 {'shuto': set([90, 60, 70])}
 ```
+
+#### Valueに複数の値を持たせる場合(LIST型)
+```
+python
+dictio = {}
+name = 'shuto'
+kokugo = 60
+sugaku = 70
+eigo = 90
+
+dictio.setdefault(name, []).append(kokugo)
+dictio.setdefault(name, []).append(sugaku)
+dictio.setdefault(name, []).append(eigo)
+
+print dictio
+```
+# 結果
+```
+{'shuto':[60,70,90]}
+```
+
+
+
+
+
+
 #### Set型に書き込み
 ```python
 Set = set()
