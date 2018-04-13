@@ -73,6 +73,23 @@ pip install [モジュール名] --user
  # 結果
  LINE: ['hello', 'world']
  ```
+ 
+ # del
+ #### 指定したリストの要素を削除
+ ```python
+ list = [0,1,2,3,4]
+ del list[2]
+ print list
+ ```
+ # 結果
+ ```
+[0,1,3,4] 
+ ```
+ 
+ 
+ 
+ 
+ 
  # ソート
  #### 一番簡単
  ```python
