@@ -570,3 +570,14 @@ print B
 ```
 15
 ```
+# 文字化け関係（BeautifulSoupで解消）
+例
+```python
+url = 'http://kenjasyukatsu.com'
+import requests
+req = requests.get(url)
+from bs4 import BeautifulSoup as bs
+soup = bs(req.content, 'html.parser')
+# タグ，'meta'を含む部分のみ表示してみる
+print soup.find_all('meta')
+```
