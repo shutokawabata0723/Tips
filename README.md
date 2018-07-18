@@ -582,18 +582,18 @@ soup = bs(req.content, 'html.parser')
 print soup.find_all('meta')
 ```
 # エクセルファイルxlsxの読み込み
-```coding:utf-8
-   import xlrd
-   import codecs
-   import os
-   #エクセルファイルを読み込んでリストに
-   def readXLSX(name):
+```
+coding:utf-8
+import xlrd
+import codecs
+import os
+#エクセルファイルを読み込んでリストに
+def readXLSX(name):
        book = xlrd.open_workbook(name)
        sheet = book.sheet_by_index(0)
        read_list = []
        for row_index in range(sheet.nrows):
            read_list.append(sheet.row_values(row_index) ) #1行分のリストを追加
        return read_list
-       
-   result = readXLSX("sample.xlsx")
-   ```
+result = readXLSX("sample.xlsx")
+```
