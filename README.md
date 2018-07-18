@@ -582,7 +582,7 @@ soup = bs(req.content, 'html.parser')
 print soup.find_all('meta')
 ```
 # エクセルファイルxlsxの読み込み
-```
+```python
 coding:utf-8
 import xlrd
 import codecs
